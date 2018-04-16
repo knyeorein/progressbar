@@ -1,0 +1,40 @@
+html, body{
+  background-image: url('http://farm5.staticflickr.com/4097/4763223883_f263d64764_z.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+h1{
+  text-align: center;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#loading-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bar {
+    width: 599px;
+    height: 10px;
+    border: 2px black solid;
+    border-radius: 0px;
+    overflow: hidden;
+}
+#loading-isi {
+    background-image: url('background-stripes-black-texture-wallpaper-textured-image.jpg');
+    height: 100%;
+    width: 0%;
+}
+.start {
+    background-color: saddlebrown;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+}
